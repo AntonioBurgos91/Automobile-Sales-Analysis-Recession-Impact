@@ -1,32 +1,53 @@
-# Automobile-Sales-Analysis-Recession-Impact
+# 🚗 Automobile Sales Analysis During Recession Periods
 
-This project explores synthetic but realistic data on automobile sales from 1980 to 2020, with a focus on identifying patterns and insights related to economic recessions.
+This project explores how **vehicle pricing and macroeconomic factors (like GDP)** influence **automobile sales** during **recession periods**, using Python for data processing, analysis, and visualization.
 
-## 📊 Overview
+📊 The goal is to provide business insights that can support **data-driven decision-making** in the automotive sector during times of economic uncertainty.
 
-- 📆 Data generated for 40+ years of monthly auto sales
-- 🛻 Sales trends analyzed by vehicle type
-- 📉 Visual exploration of the impact of recession periods
-- 🧪 Techniques: Pandas, Seaborn, Matplotlib, Synthetic data generation
+![Price vs Sales During Recession Periods](Captura%20de%20pantalla%202025-05-16%20113945.png)
 
-## 🔍 Key Insights
+---
 
-- Recessions significantly affect the sales of certain vehicle types more than others
-- Medium and large family cars show the highest drop during economic downturns
-- Visualization helps uncover long-term trends that are otherwise hidden
+## 📌 Table of Contents
 
-## 📁 Project Structure
+- [Overview](#overview)
+- [Technologies Used](#technologies-used)
+- [Key Insights](#key-insights)
+- [Project Structure](#project-structure)
+- [How to Run](#how-to-run)
+- [Visualizations](#visualizations)
+- [Conclusion](#conclusion)
+- [Author](#author)
 
-- `Proyecto_Courseradatacar.ipynb`: Main Jupyter notebook with all analyses and visualizations
-- `data/`: (Optional) Folder to place the generated synthetic dataset
-- `images/`: (Optional) Exported plots for documentation or sharing
+---
 
-## 🚀 How to Run
+## 🧠 Overview
 
-1. Clone the repo
-2. Install dependencies (`pandas`, `numpy`, `matplotlib`, `seaborn`)
-3. Open the notebook in Jupyter or VS Code
-4. Run all cells to generate data and visualizations
+This project is an **update to a previous analysis**, improved with additional features and refined techniques. It analyzes historical automobile sales segmented by vehicle type (e.g., **Small family cars, Executive cars, Superminis, Sports**) in correlation with:
+- **Average vehicle price**
+- **GDP per capita**
+- **Sales performance during economic recessions**
 
-## ✍️ Author
--Antonio Burgos
+The aim is to identify which vehicle categories maintain demand and which are most impacted by economic downturns.
+
+---
+
+## 💻 Technologies Used
+
+- `Python 3.10+`
+- `Pandas`
+- `NumPy`
+- `Seaborn`
+- `Matplotlib`
+- `Jupyter Notebook`
+
+---
+
+## 📈 Key Insights
+
+- There's a **clear negative correlation** between average vehicle price and sales volume during recession periods.
+- **Lower-priced vehicles** (superminis and small family cars) showed stronger resilience in demand.
+- **Executive and sports vehicles** experienced the sharpest drop in sales during downturns.
+- Incorporating **GDP as a bubble size** in scatter plots enhances the economic context behind consumer behavior.
+
+---
